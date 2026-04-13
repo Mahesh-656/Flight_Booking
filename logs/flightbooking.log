@@ -1,0 +1,38 @@
+2026-04-13T13:51:31.802+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.f.FlightBookingApplication             : Starting FlightBookingApplication using Java 22.0.2 with PID 10272 (E:\FlightBooking\FlightBooking\target\classes started by mahig in E:\FlightBooking\FlightBooking)
+2026-04-13T13:51:31.802+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.f.FlightBookingApplication             : No active profile set, falling back to 1 default profile: "default"
+2026-04-13T13:51:31.991+05:30  INFO 10272 --- [FlightBooking] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-13T13:51:32.024+05:30  INFO 10272 --- [FlightBooking] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2026-04-13T13:51:32.179+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-04-13T13:51:32.180+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-13T13:51:32.181+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-04-13T13:51:32.244+05:30  INFO 10272 --- [FlightBooking] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 437 ms
+2026-04-13T13:51:32.301+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-13T13:51:32.328+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-13T13:51:32.329+05:30  INFO 10272 --- [FlightBooking] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-04-13T13:51:32.380+05:30  INFO 10272 --- [FlightBooking] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@80cd6e0
+2026-04-13T13:51:32.413+05:30  INFO 10272 --- [FlightBooking] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-04-13T13:51:32.421+05:30  WARN 10272 --- [FlightBooking] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-13T13:51:32.429+05:30  INFO 10272 --- [FlightBooking] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/flight]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.0
+	Default catalog/schema: flight/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-13T13:51:32.526+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-13T13:51:32.614+05:30  INFO 10272 --- [FlightBooking] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-13T13:51:33.015+05:30  WARN 10272 --- [FlightBooking] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-13T13:51:33.240+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-04-13T13:51:33.243+05:30  INFO 10272 --- [FlightBooking] [restartedMain] o.f.FlightBookingApplication             : Started FlightBookingApplication in 1.547 seconds (process running for 2981.224)
+2026-04-13T13:51:33.245+05:30  INFO 10272 --- [FlightBooking] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-04-13T13:57:37.288+05:30  INFO 10272 --- [FlightBooking] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-13T13:57:37.290+05:30  INFO 10272 --- [FlightBooking] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-13T13:57:37.299+05:30  INFO 10272 --- [FlightBooking] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-04-13T13:57:37.301+05:30  INFO 10272 --- [FlightBooking] [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-13T13:57:37.302+05:30  INFO 10272 --- [FlightBooking] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-04-13T13:57:37.340+05:30  INFO 10272 --- [FlightBooking] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
